@@ -11,3 +11,5 @@ COMP9321 Data Service Engineering. Currently, I'm supervising some research stud
 * External Reviewer, Knowledge-Based Systems.
 * External Reviewer, ACM International Conference on Multimedia in Asia 2019.
 * External Reviewer, IEEE Transactions on Knowledge and Data Engineering (TKDE).
+* Assistant Reviewer, AAAI2020.
+* Assistant Reviewer, Hindawi Complexity.
