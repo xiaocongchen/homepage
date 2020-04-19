@@ -5,24 +5,16 @@ const data = [
     index: true,
   },
   {
-    path: '/about',
-    label: 'About',
-  },
-  {
     path: '/publication',
     label: 'Publication',
   },
-  // {
-  //   path: '/projects',
-  //   label: 'Projects',
-  // },
-  // {
-  //   path: '/stats',
-  //   label: 'Stats',
-  // },
   {
-    path: '/contact',
-    label: 'Contact',
+    path: '/professional',
+    label: 'Professional',
+  },
+  {
+    path: '/teaching',
+    label: 'Teaching',
   },
 ];
 

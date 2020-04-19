@@ -6,11 +6,10 @@ import {
 
 // Featured
 import Index from './views/Index';
-import About from './views/About';
+import Teaching from './views/Teaching';
 import Publication from './views/Publication';
-import Contact from './views/Contact';
+import Professional from './views/Professional';
 
-import NotFound from './views/NotFound';
 
 // All of our CSS
 import './static/css/main.scss';
@@ -19,13 +18,12 @@ ReactDOM.render(
   <Router basename={BASE_PATH}>
     <Switch>
       <Route exact path="/" component={Index} />
-      <Route path="/about" component={About} />
       {/*<Route path="/projects" component={Projects} />*/}
       {/*<Route path="/stats" component={Stats} />*/}
-      <Route path="/contact" component={Contact} />
+      <Route path="/Professional" component={Professional} />
       <Route path="/publication" component={Publication} />
+      <Route path="/teaching" component={Teaching} />
       {/* Only useful in development mode */}
-      <Route component={NotFound} status={404} />
     </Switch>
   </Router>,
   document.getElementById('root'),

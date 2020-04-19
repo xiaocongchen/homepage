@@ -22,6 +22,14 @@ const conference = [
     location: 'Sydney, Australia',
     authors: 'Xiang Zhang, Xiaocong Chen, Manqing Dong, Huan Liu, Chang Ge, and Lina Yao',
   },
+  {
+    title: 'Knowledge-guided Deep Reinforcement Learning for Interactive Recommendation',
+    name: 'The International Joint Conference on Neural Networks(Jointly with IEEE WORLD CONGRESS ON COMPUTATIONAL INTELLIGENCE (WCCI) 2020)',
+    link: 'https://wcci2020.org/',
+    daterange: '19th – 24th, July 2020',
+    location: 'Glasgow, United Kingdom',
+    authors: 'Xiaocong Chen, Chaoran Huang, Lina Yao, Xianzhi Wang, Wei Liu and Wenjie Zhang',
+  },
 ];
 
 export default conference;

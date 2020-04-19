@@ -1,20 +1,26 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import ReactMarkdown from 'react-markdown';
 import Main from '../layouts/Main';
+import markdown from '../data/about.md';
 
+const LinkRenderer = ({ ...children }) => <Link {...children} />;
 const Index = () => (
   <Main>
     <article className="post" id="index">
       <header>
         <div className="title">
-          <h2><Link to="/">About this site</Link></h2>
-          <p>Hello :)</p>
+          <h2><Link to="/">About Me</Link></h2>
+          <p>Welcome!</p>
         </div>
       </header>
-      <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
-        or you can <Link to="/contact">contact</Link> me.
-      </p>
+      <ReactMarkdown
+        source={markdown}
+        renderers={{
+          Link: LinkRenderer,
+        }}
+        escapeHtml={false}
+      />
     </article>
   </Main>
 );
