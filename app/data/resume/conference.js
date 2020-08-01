@@ -30,6 +30,13 @@ const conference = [
     location: 'Glasgow, United Kingdom',
     authors: 'Xiaocong Chen, Chaoran Huang, Lina Yao, Xianzhi Wang, Wei Liu and Wenjie Zhang',
   },
+  {
+    title: 'Adversarial Attack and Detection on Reinforcement Learning based Recommendation System',
+    name: 'The 43rd Annual ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2020)',
+    link: 'http://sigir.org/sigir2020/',
+    location: 'Xi`an, China',
+    authors: 'Yuanjiang Cao, Xiaocong Chen, Lina Yao, Xianzhi Wang and Wei Emma Zhang',
+  },
 ];
 
 export default conference;
