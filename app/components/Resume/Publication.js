@@ -7,7 +7,7 @@ const Publication = ({ data }) => (
   <div className="publication">
     <div className="link-to" id="publication" />
     <div className="title">
-      <h3>Conference Papers</h3>
+      <h3>Publications</h3>
     </div>
     {data.map((paper) => (
       <Job

@@ -8,6 +8,7 @@ import Publication from '../components/Resume/Publication';
 
 import conference from '../data/resume/conference';
 import review from '../data/resume/review';
+import journal from '../data/resume/journal';
 
 const publication = () => (
   <Main>
@@ -18,8 +19,10 @@ const publication = () => (
           <h2><Link to="publication">Publications</Link></h2>
         </div>
       </header>
-      <h3>Published Papers</h3>
+      <h3>Conference Papers</h3>
       <Publication data={conference} />
+      <h3>Jornal Papers</h3>
+        <Publication data={journal} />
       <h3>Under Review</h3>
       <Publication data={review} />
     </article>
