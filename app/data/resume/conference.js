@@ -37,6 +37,14 @@ const conference = [
     location: 'Xi`an, China',
     authors: 'Yuanjiang Cao, Xiaocong Chen, Lina Yao, Xianzhi Wang and Wei Emma Zhang',
   },
+  {
+    title: 'Deep Multi-view Spatio-Temporal Network for Urban Crime Prediction',
+    name: '2021 Australasian Database Conference',
+    link: 'http://www.acsw.org.au/',
+    location: 'Virtual',
+    daterange: '1st - 5th, Feb, 2021',
+    authors: 'Usama Salama*, Xiaocong Chen*, Lina Yao , Hye-Young Paik and Xianzhi Wang',
+  },
 ];
 
 

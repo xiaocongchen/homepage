@@ -37,3 +37,5 @@
 * Reviewer, IEEE Transactions on Affective Computing (TAFFC).
 * Reviewer, IEEE Intelligent Systems (ISSI).
 * Reviewer, Future Generation Computer Systems.
+* Reviewer, Computational and Structural Biotechnology
+* Reviewer, Pattern Recognition

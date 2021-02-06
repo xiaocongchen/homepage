@@ -21,6 +21,7 @@ const Publication = ({ data }) => (
 Publication.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({
     title: PropTypes.string,
+    award: PropTypes.string,
     name: PropTypes.string,
     link: PropTypes.string,
     daterange: PropTypes.string,
